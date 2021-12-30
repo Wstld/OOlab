@@ -6,10 +6,17 @@ namespace OOlab.Classes
         private int Width { get; set; }
         private int Height { get; set; }
 
-        public Rectangle(int width , int height)
+        
+        public Rectangle(int width , int height) : this(width)
         {
             Width = width;
             Height = height;
+        }
+
+        public Rectangle(int width)
+        {
+            Width = width;
+            Height = width; 
         }
 
         public override double GetArea() => Width * Height;

@@ -7,10 +7,10 @@ namespace OOlab
     {
         public static void Main(string[] args)
         {
-            Rectangle rectangel = new Rectangle(2, 5);
+            Rectangle rectangel = new Rectangle(2,10);
             Circle circle = new Circle(7);
 
-            Console.WriteLine(circle);
+            Console.WriteLine(rectangel);
         }
     }
 }
